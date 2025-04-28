@@ -32,7 +32,7 @@ jobs:
 
     - name: Setup id.json file
       run: |
-        echo "${{ secrets.ID_JSON }}" > id.json  # Menyimpan isi secret ID_JSON ke file id.json
+        echo "${{ secrets.ID_JSON }}" > id.json
 
     - name: Jalankan script Python
       run: |
